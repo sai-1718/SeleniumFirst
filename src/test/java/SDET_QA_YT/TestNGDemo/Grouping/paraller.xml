@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" name="parallel" parallel="tests">
+
+    <test  name="par1">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+          <class name="SDET_QA_YT.TestNGDemo.Grouping.parallelExcution"/>
+        </classes>
+    </test>
+
+
+    <test  name="par2">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="SDET_QA_YT.TestNGDemo.Grouping.parallelExcution"/>
+        </classes>
+
+    </test>
+</suite>

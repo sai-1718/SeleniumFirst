@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="group">
+    <groups>
+        <run>
+            <include name="sanity"/>
+            <exclude name="func"/>
+        </run>
+    </groups>
+    <test  name="grps">
+        <classes>
+            <class name="SDET_QA_YT.TestNGDemo.Grouping.grp1"></class>
+            <class name="SDET_QA_YT.TestNGDemo.Grouping.grp2"></class>
+            <class name="SDET_QA_YT.TestNGDemo.Grouping.grp3"></class>
+        </classes>
+
+    </test>
+</suite>

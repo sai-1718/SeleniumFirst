@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Report">
+    <listeners>
+        <listener class-name="SDET_QA_YT.TestNGDemo.ListenersANDReports.ExtentRepors1L"/>
+    </listeners>
+    <test  name="extent">
+    <classes>
+        <class name="SDET_QA_YT.TestNGDemo.ListenersANDReports.ListenersDemo"/>
+    </classes>
+    </test>
+</suite>
